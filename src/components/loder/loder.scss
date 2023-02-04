@@ -1,0 +1,26 @@
+.loder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    position: absolute;
+    #spinner   {         
+        animation: spin 1s linear infinite;
+        color:#32445b;
+    }
+      
+    @keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .inline{
+    display: flex;
+    }
+    .spinner i{
+    margin-top: 10px;
+    margin-left: 50px;
+    }
+}

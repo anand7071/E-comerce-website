@@ -1,0 +1,22 @@
+.all-cat-cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        color: #32445b;
+        background-color: #f1f4f7;
+        border-radius: 20px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .item-selected{
+        background-color: #32445b;
+        color: white;
+    }
+}
