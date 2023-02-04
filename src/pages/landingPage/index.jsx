@@ -1,8 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 import ProductCart from "../../components/productCart";
-import ApiService from "../../utils";
 import './index.scss'
 
 const LandingPage = ({allProduct}) => {
